@@ -1,4 +1,4 @@
-# Estudo de Hierarquia de Memória
+# Estudo de Hierarquia de Memória - ShowMemory
 
 - Falta:
     - Fazer um arquivo `TR.txt`, para testar os cenários sob as mesmas condições.
@@ -94,3 +94,4 @@ Onde:
 - Caio Faria Diniz
 - Giuseppe Sena Cordeiro
 - Vinícius Miranda de Araújo
+
