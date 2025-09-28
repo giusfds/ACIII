@@ -34,6 +34,7 @@
         Tamanho total da cache: 64 bytes
         Nível de associatividade: 1 via (direto)
         Política de escrita: Write Back
+        Algoritmo de substituição: LRU
     -->
     <Cache>
         <cacheType>unified</cacheType>
@@ -45,6 +46,7 @@
             <memorySize>64</memorySize>
             <associativityLevel>1</associativityLevel>
             <writePolicy>WriteBack</writePolicy>
+            <replacementAlgorithm>LRU</replacementAlgorithm>
         </unifiedCache>
     </Cache>
 
