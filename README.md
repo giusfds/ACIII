@@ -7,86 +7,109 @@
 
 ## Objetivo
 
-O trabalho consiste em simular arquiteturas de memória cache no simulador Amnesia e analisar como diferentes parâmetros influenciam o desempenho. A ideia é validar os conceitos de localidade temporal (reuso de dados recentemente acessados) e localidade espacial (acesso a dados próximos na memória).
+O trabalho consiste em simular arquiteturas de memória no simulador Amnesia e analisar como diferentes parâmetros influenciam o desempenho. A ideia é validar os conceitos de **localidade temporal** (reuso de dados recentemente acessados) e **localidade espacial** (acesso a dados próximos na memória).
 
-Ou seja, variar configurações do sistema de memória e observar taxas de hit/miss e tempo médio de acesso.
+Para isso, foram criados **seis cenários de simulação**: três explorando apenas **variações na cache** e três explorando apenas **variações na memória virtual**. Assim, isolamos o impacto de cada parte da hierarquia de memória.
 
 ## Cenários de Simulação
 
-- Arquitetura-Cenario-1-(L1B-C64B-1W-WB-LRU).xml
+### Cenários de Cache (memória virtual padronizada)
+
+- **Arquitetura-Cenario-Cache-1-(L4B-C64B-1W-WB-LRU).xml**
 
     - Cache pequena (64B)
     - Direto mapeado (1-way)
     - WriteBack + LRU
-    - Objetivo: comparar comportamento básico de cache mínima.
+    - Objetivo: avaliar o comportamento básico de uma cache mínima, onde o impacto de conflitos de mapeamento e capacidade é mais evidente.
 
-- Arquitetura-Cenario-2-(L4B-C128B-2W-WT-FIFO).xml
+- **Arquitetura-Cenario-Cache-2-(L8B-C128B-2W-WT-FIFO).xml**
 
     - Cache média (128B)
     - 2-way associativo
     - WriteThrough + FIFO
-    - Objetivo: observar impacto de WriteThrough e política FIFO.
+    - Objetivo: observar como associatividade reduz conflitos e como a política de escrita WriteThrough influencia no tráfego de memória.
 
-- Arquitetura-Cenario-3-(L8B-C256B-4W-WB-FIFO).xml
+- **Arquitetura-Cenario-Cache-3-(L16B-C256B-4W-WB-LRU).xml**
 
     - Cache maior (256B)
     - 4-way associativo
-    - WriteBack + FIFO
-    - Objetivo: explorar mais associatividade e blocos maiores.
-
-- Arquitetura-Cenario-4-(Split-I32B-D32B-2W-WT-LRU).xml
-
-    - Cache Split (32B para instruções + 32B para dados)
-    - 2-way associativo
-    - WriteThrough + LRU
-    - Objetivo: avaliar impacto de cache separada em cargas mistas.
-
-- Arquitetura-Cenario-5-(L16B-C512B-8W-WB-LRU-TLB4).xml
-
-    - Cache grande (512B)
-    - 8-way associativo
     - WriteBack + LRU
-    - TLB maior (4 entradas)
-    - Objetivo: simular arquitetura mais robusta, com alto grau de associatividade e suporte de TLB.
+    - Objetivo: explorar ganhos de desempenho com blocos maiores e mais associatividade, favorecendo localidade espacial e reduzindo taxas de miss.
 
-### Padronização dos Ciclos
+### Cenários de Memória Virtual (cache padronizada)
 
-Durante a construção dos cenários, foi feita a padronização dos parâmetros de ciclos (ciclesPerAccessRead, ciclesPerAccessWrite, timeCicle) para que a análise se concentre apenas nas variações estruturais da hierarquia de memória (tamanho de cache, associatividade, política de escrita e substituição, etc.).
+- **Arquitetura-Cenario-VM-1-(PS32-D128-TLB2-FIFO).xml**
 
-A padronização foi definida da seguinte forma:
+    - Página de 32 palavras
+    - Disco de 128 palavras
+    - TLB pequena (2 entradas)
+    - Substituição FIFO na tabela de páginas
+    - Objetivo: avaliar comportamento com páginas pequenas e baixa cobertura da TLB, resultando em mais page faults.
 
-- Memória principal e cache:
-    - ciclesPerAccessRead = 1
-    - ciclesPerAccessWrite = 2
-    - timeCicle = 1
+- **Arquitetura-Cenario-VM-2-(PS64-D256-TLB4-LRU).xml**
 
-- Memória virtual (disco):
-    - ciclesPerAccessRead = 10
-    - ciclesPerAccessWrite = 20
-    - timeCicle = 100
+    - Página de 64 palavras
+    - Disco de 256 palavras
+    - TLB média (4 entradas)
+    - Substituição LRU na tabela de páginas
+    - Objetivo: analisar impacto de páginas maiores e de uma TLB um pouco mais robusta, favorecendo localidade temporal.
 
-Essa padronização permite que os resultados obtidos reflitam apenas as diferenças de projeto das caches, sem influência de tempos artificiais de leitura/escrita.
+- **Arquitetura-Cenario-VM-3-(PS128-D512-TLB8-NRU).xml**
 
-### Padrão de Nome de Arquivo
+    - Página de 128 palavras
+    - Disco de 512 palavras
+    - TLB maior (8 entradas)
+    - Substituição NRU na tabela de páginas
+    - Objetivo: simular um sistema mais robusto, explorando localidade espacial com páginas grandes e comparando a política NRU frente ao LRU.
+
+## Padronizações Adotadas
+
+Para garantir que os resultados comparados refletissem apenas os parâmetros de interesse (cache ou memória virtual), foram feitas as seguintes padronizações:
+
+- **MainMemory**
+
+    - Tamanho fixo de 1024B
+    - `ciclesPerAccessRead = 1`, `ciclesPerAccessWrite = 2`, `timeCicle = 1`
+    - O `blockSize` sempre igual ao `lineSize` da cache, garantindo consistência no mapeamento.
+
+- **Cache** (para cenários de memória virtual)
+
+    - Cache unificada
+    - 256B, 4-way associativa, WriteBack + LRU
+    - Ciclos padronizados.
+
+- **VirtualMemory** (para cenários de cache)
+
+    - Página de 32 palavras, disco de 128 palavras
+    - TLB unificada com 4 entradas
+    - Política LRU
+    - Ciclos padronizados (`read=10`, `write=20`, `timeCicle=100` para disco).
+
+Essa padronização garante que, em cada grupo de cenários, apenas a dimensão estudada (cache ou memória virtual) varie, isolando os efeitos no desempenho.
+
+## Padrão de Nome de Arquivo
 
 ```
-Arquitetura-Cenario-X-(LxB-CyB-zW-PolSub-PolWrite[-TLBn]).xml
+Arquitetura-Cenario-[Tipo]-X-(Parâmetros).xml
 ```
 
 Onde:
 
-- LxB      $\to$ tamanho da linha da cache em bytes
-- CyB      $\to$ tamanho total da cache em bytes
-- zW       $\to$ associatividade (`1W` = direto mapeado, `2W` = 2-way, etc.)
-- PolSub   $\to$ política de substituição (`LRU` ou `FIFO`)
-- PolWrite $\to$ política de escrita (`WriteBack` = `WB`, `WriteThrough` = `WT`)
-- TLBn     $\to$ (opcional) tamanho da `TLB`
+- **Tipo**     $\to$ Cache ou VM
+- **LxB**      $\to$ tamanho da linha da cache em bytes
+- **CyB**      $\to$ tamanho total da cache em bytes
+- **zW**       $\to$ associatividade (`1W`, `2W`, `4W`, etc.)
+- **PolWrite** $\to$ política de escrita (WB ou WT)
+- **PolSub**   $\to$ política de substituição (LRU, FIFO, NRU)
+- **PSn**      $\to$ tamanho da página (n palavras)
+- **Dn**       $\to$ tamanho do disco (n palavras)
+- **TLBn**     $\to$ tamanho da TLB
 
 ## Overleaf
 
-- Modelo       : https://www.overleaf.com/latex/templates/ieee-conference-template/grfzhhncsfqn
-- Vizualização : https://www.overleaf.com/read/rvygqcfmtfsh#7c38c4
-- Edição       : https://www.overleaf.com/4121384261rzntktrcvsng#99be3e
+- Modelo       : [https://www.overleaf.com/latex/templates/ieee-conference-template/grfzhhncsfqn](https://www.overleaf.com/latex/templates/ieee-conference-template/grfzhhncsfqn)
+- Visualização : [https://www.overleaf.com/read/rvygqcfmtfsh#7c38c4](https://www.overleaf.com/read/rvygqcfmtfsh#7c38c4)
+- Edição       : [https://www.overleaf.com/4121384261rzntktrcvsng#99be3e](https://www.overleaf.com/4121384261rzntktrcvsng#99be3e)
 
 ## Integrantes
 
@@ -94,4 +117,3 @@ Onde:
 - Caio Faria Diniz
 - Giuseppe Sena Cordeiro
 - Vinícius Miranda de Araújo
-
