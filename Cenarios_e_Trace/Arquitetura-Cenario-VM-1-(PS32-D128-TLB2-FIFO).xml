@@ -17,7 +17,10 @@
         <wordSize>4</wordSize>
     </CPU>
 
-    <!-- MainMemory: blockSize = cache.lineSize padronizada (8) -->
+    <!-- 
+        Tamanho do Bloco: 1 palavra (4 bytes)
+        Tamanho da memória principal: 1024 bytes
+    -->
     <MainMemory>
         <blockSize>1</blockSize>
         <memorySize>1024</memorySize>
