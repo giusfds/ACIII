@@ -26,7 +26,13 @@
         <timeCicle>1</timeCicle>
     </MainMemory>
 
-    <!-- CACHE (variação deste cenário) -->
+    <!--
+        Tamanho da linha: 16 bytes
+        Tamanho total da cache: 256 bytes
+        Nível de associatividade: 4 vias
+        Política de escrita: Write Back
+        Algoritmo de substituição: LRU
+    -->
     <Cache>
         <cacheType>unified</cacheType>
         <unifiedCache>
@@ -40,23 +46,5 @@
             <replacementAlgorithm>LRU</replacementAlgorithm>
         </unifiedCache>
     </Cache>
-
-    <!-- VirtualMemory padronizada para os 3 cenários de cache -->
-    <VirtualMemory>
-        <pageSize>32</pageSize>
-        <diskMemorySize>128</diskMemorySize>
-        <diskCiclesPerAccessRead>10</diskCiclesPerAccessRead>
-        <diskCiclesPerAccessWrite>20</diskCiclesPerAccessWrite>
-        <timeCicle>100</timeCicle>
-        <pageTableReplacementAlgorithm>LRU</pageTableReplacementAlgorithm>
-        <TLBType>unified</TLBType>
-        <unifiedTLB>
-            <memorySize>4</memorySize>
-            <ciclesPerAccessRead>1</ciclesPerAccessRead>
-            <ciclesPerAccessWrite>2</ciclesPerAccessWrite>
-            <timeCicle>1</timeCicle>
-            <replacementAlgorithm>LRU</replacementAlgorithm>
-        </unifiedTLB>
-    </VirtualMemory>
 
 </AmnesiaConfiguration>
