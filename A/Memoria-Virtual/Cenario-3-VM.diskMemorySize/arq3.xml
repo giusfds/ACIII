@@ -17,10 +17,6 @@
         <wordSize>4</wordSize>
     </CPU>
 
-    <!-- 
-        Tamanho do Bloco: 1 palavra (4 bytes)
-        Tamanho da memória principal: 1024 bytes
-    -->
     <MainMemory>
         <blockSize>1</blockSize>
         <memorySize>1024</memorySize>
@@ -29,23 +25,16 @@
         <timeCicle>1</timeCicle>
     </MainMemory>
 
-    <!-- 
-        Tamanho da página: 32 bytes
-        Tamanho total da memória secundária (disco): 128 bytes
-        Algoritmo de substituição da tabela de páginas: FIFO
-        Tamanho da TLB: 2 entradas
-        Algoritmo de substituição da TLB: FIFO
-    -->
     <VirtualMemory>
-        <pageSize>32</pageSize>
+        <pageSize>2</pageSize>
         <diskMemorySize>128</diskMemorySize>
         <diskCiclesPerAccessRead>10</diskCiclesPerAccessRead>
         <diskCiclesPerAccessWrite>20</diskCiclesPerAccessWrite>
         <timeCicle>100</timeCicle>
-        <pageTableReplacementAlgorithm>FIFO</pageTableReplacementAlgorithm>
+        <pageTableReplacementAlgorithm>NRU</pageTableReplacementAlgorithm>
         <TLBType>unified</TLBType>
         <unifiedTLB>
-            <memorySize>2</memorySize>
+            <memorySize>4</memorySize>
             <ciclesPerAccessRead>1</ciclesPerAccessRead>
             <ciclesPerAccessWrite>2</ciclesPerAccessWrite>
             <timeCicle>1</timeCicle>
