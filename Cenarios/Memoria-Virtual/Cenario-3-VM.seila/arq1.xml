@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-
 <!DOCTYPE AmnesiaConfiguration SYSTEM "Configuration/amnesia.dtd">
 <?xml-stylesheet type="text/css" href="teste.css"?>
-
 <AmnesiaConfiguration>
 
     <Processor>
@@ -13,6 +11,7 @@
     <Trace>
         <wordSize>4</wordSize>
     </Trace>
+
     <CPU>
         <wordSize>4</wordSize>
     </CPU>
@@ -32,6 +31,7 @@
         <diskCiclesPerAccessWrite>20</diskCiclesPerAccessWrite>
         <timeCicle>100</timeCicle>
         <pageTableReplacementAlgorithm>FIFO</pageTableReplacementAlgorithm>
+
         <TLBType>unified</TLBType>
         <unifiedTLB>
             <memorySize>4</memorySize>
