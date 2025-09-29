@@ -30,7 +30,7 @@
         <diskCiclesPerAccessRead>500</diskCiclesPerAccessRead>  <!-- disco lento -->
         <diskCiclesPerAccessWrite>1000</diskCiclesPerAccessWrite>
         <timeCicle>100</timeCicle>
-        <pageTableReplacementAlgorithm>NRU</pageTableReplacementAlgorithm>
+        <pageTableReplacementAlgorithm>LRU</pageTableReplacementAlgorithm>
 
         <TLBType>unified</TLBType>
         <unifiedTLB>

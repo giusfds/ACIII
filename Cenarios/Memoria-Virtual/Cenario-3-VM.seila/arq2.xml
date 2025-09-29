@@ -18,7 +18,7 @@
 
     <MainMemory>
         <blockSize>1</blockSize>
-        <memorySize>1024</memorySize>
+        <memorySize>8</memorySize>
         <ciclesPerAccessRead>1</ciclesPerAccessRead>
         <ciclesPerAccessWrite>2</ciclesPerAccessWrite>
         <timeCicle>1</timeCicle>
@@ -26,11 +26,11 @@
 
     <VirtualMemory>
         <pageSize>2</pageSize>
-        <diskMemorySize>4</diskMemorySize>
+        <diskMemorySize>32</diskMemorySize>
         <diskCiclesPerAccessRead>10</diskCiclesPerAccessRead>
         <diskCiclesPerAccessWrite>20</diskCiclesPerAccessWrite>
         <timeCicle>100</timeCicle>
-        <pageTableReplacementAlgorithm>LRU</pageTableReplacementAlgorithm>
+        <pageTableReplacementAlgorithm>NRU</pageTableReplacementAlgorithm>
 
         <TLBType>unified</TLBType>
         <unifiedTLB>
