@@ -43,8 +43,8 @@
             <ciclesPerAccessRead>1</ciclesPerAccessRead>
             <ciclesPerAccessWrite>2</ciclesPerAccessWrite>
             <timeCicle>1</timeCicle>
-            <memorySize>8</memorySize>
-            <associativityLevel>2</associativityLevel>
+            <memorySize>4</memorySize>
+            <associativityLevel>8</associativityLevel>
             <writePolicy>WriteBack</writePolicy>
             <replacementAlgorithm>LRU</replacementAlgorithm>
         </unifiedCache>
