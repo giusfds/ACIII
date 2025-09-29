@@ -1,0 +1,106 @@
+------------------------------------
+--- File created by Amnesia tool ---
+------------------------------------
+
+
+----------------------------------
+--- Architecture Configuration ---
+----------------------------------
+
+--- Main Memory ---
+
+Memory size: 1024 word(s) 
+Block size: 2 word(s)/block 
+Cycles per access read: 1 unity 
+Cycles per access write: 2 unity 
+Time cycle: 1 time unity 
+
+--- Cache Memory ---
+
+Cache type: UNIFIED / Level: 1 
+Memory size: 16 word(s) 
+Block size: 2 word(s)/block 
+Cycles per access read: 1 unity 
+Cycles per access write: 2 unity 
+Time cicle: 1 time unity 
+Associativity level: 4 block(s)/set 
+Write policy: WriteBack 
+Replacement algorithm: LRU 
+
+
+-------------------------
+---       Trace       ---
+-------------------------
+
+2 0
+2 1
+2 2
+2 3
+2 4
+2 5
+2 6
+2 7
+0 10
+0 11
+0 10
+0 11
+0 10
+0 12
+0 13
+0 10
+1 20
+1 21
+1 22
+0 20
+1 21
+0 22
+1 23
+2 30
+2 31
+2 32
+2 33
+2 30
+2 31
+2 34
+2 35
+0 40
+1 41
+2 42
+0 43
+1 44
+2 45
+0 40
+1 41
+
+------------------------------
+---      Execution Log     ---
+------------------------------
+
+------------------------------
+---       Statistics       ---
+------------------------------
+
+Unified Cache - Level 1
+  Read Access: 31
+  Read Cycles: 31
+  Read Time: 31
+  Write Access: 8
+  Write Cycles: 16
+  Write Time: 16
+  Total Access: 39
+  Total Hit: 25
+  Total Miss: 14
+  Hit/rate: 0.64102566
+  Total Time: 47
+
+Main Memory
+  Read Access: 14
+  Read Cycles: 14
+  Read Time: 14
+  Write Access: 1
+  Write Cycles: 2
+  Write Time: 2
+  Total Access: 15
+  Total Time: 16
+
+ Total Time: 63
