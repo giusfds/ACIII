@@ -1,0 +1,1614 @@
+------------------------------------
+--- File created by Amnesia tool ---
+------------------------------------
+
+
+----------------------------------
+--- Architecture Configuration ---
+----------------------------------
+
+--- Main Memory ---
+
+Memory size: 1024 word(s) 
+Block size: 1 word(s)/block 
+Cycles per access read: 1 unity 
+Cycles per access write: 2 unity 
+Time cycle: 1 time unity 
+
+--- Cache Memory ---
+
+Cache type: UNIFIED / Level: 1 
+Memory size: 16 word(s) 
+Block size: 1 word(s)/block 
+Cycles per access read: 1 unity 
+Cycles per access write: 2 unity 
+Time cicle: 1 time unity 
+Associativity level: 4 block(s)/set 
+Write policy: WriteBack 
+Replacement algorithm: LRU 
+
+
+-------------------------
+---       Trace       ---
+-------------------------
+
+2 0
+2 1
+2 2
+2 3
+2 4
+2 5
+2 6
+2 7
+0 10
+0 11
+0 10
+0 11
+0 10
+0 12
+0 13
+0 10
+1 20
+1 21
+1 22
+0 20
+1 21
+0 22
+1 23
+2 30
+2 31
+2 32
+2 33
+2 30
+2 31
+2 34
+2 35
+0 40
+1 41
+2 42
+0 43
+1 44
+2 45
+0 40
+1 41
+
+------------------------------
+---      Execution Log     ---
+------------------------------
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 0 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 2 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 3 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 4 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 5 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 6 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 7 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 8 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 9 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 10 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 11 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 12 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 13 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 14 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 15 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 16 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 17 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 18 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 19 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 20 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 21 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 22 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 23 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 24 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 25 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 26 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 27 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 28 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 29 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 30 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 31 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 32 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 33 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 34 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 35 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 36 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 37 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 38 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 39 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 40 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 41 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 42 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 43 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 44 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 45 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 46 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 47 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 48 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 49 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 50 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 51 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 52 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 53 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 54 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 55 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 56 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 57 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 58 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 59 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 60 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 61 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 62 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 63 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 64 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 65 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 66 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 67 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 68 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 69 
+
+
+----------------------- Step: 001 to 039 || Trace: 2 0 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000000000XX (32 bits)    |
+|                         Word Address: 000000000000000000000000000000   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000000|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 0 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000000000XX (32 bits)    |
+|                         Word Address: 000000000000000000000000000000   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000000|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 002 to 039 || Trace: 2 1 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000000001XX (32 bits)    |
+|                         Word Address: 000000000000000000000000000001   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000000|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 1 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000000001XX (32 bits)    |
+|                         Word Address: 000000000000000000000000000001   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000000|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 003 to 039 || Trace: 2 2 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000000010XX (32 bits)    |
+|                         Word Address: 000000000000000000000000000010   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000000|                              10|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 2 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000000010XX (32 bits)    |
+|                         Word Address: 000000000000000000000000000010   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000000|                              10|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 004 to 039 || Trace: 2 3 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000000011XX (32 bits)    |
+|                         Word Address: 000000000000000000000000000011   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000000|                              11|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 3 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000000011XX (32 bits)    |
+|                         Word Address: 000000000000000000000000000011   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000000|                              11|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 005 to 039 || Trace: 2 4 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000000100XX (32 bits)    |
+|                         Word Address: 000000000000000000000000000100   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000001|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 4 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000000100XX (32 bits)    |
+|                         Word Address: 000000000000000000000000000100   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000001|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 006 to 039 || Trace: 2 5 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000000101XX (32 bits)    |
+|                         Word Address: 000000000000000000000000000101   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000001|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 5 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000000101XX (32 bits)    |
+|                         Word Address: 000000000000000000000000000101   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000001|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 007 to 039 || Trace: 2 6 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000000110XX (32 bits)    |
+|                         Word Address: 000000000000000000000000000110   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000001|                              10|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 6 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000000110XX (32 bits)    |
+|                         Word Address: 000000000000000000000000000110   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000001|                              10|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 008 to 039 || Trace: 2 7 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000000111XX (32 bits)    |
+|                         Word Address: 000000000000000000000000000111   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000001|                              11|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 7 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000000111XX (32 bits)    |
+|                         Word Address: 000000000000000000000000000111   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000001|                              11|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 009 to 039 || Trace: 0 10 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000010000XX (32 bits)    |
+|                         Word Address: 000000000000000000000000010000   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000100|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 16 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000010000XX (32 bits)    |
+|                         Word Address: 000000000000000000000000010000   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000100|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 010 to 039 || Trace: 0 11 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000010001XX (32 bits)    |
+|                         Word Address: 000000000000000000000000010001   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000100|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 17 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000010001XX (32 bits)    |
+|                         Word Address: 000000000000000000000000010001   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000100|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 011 to 039 || Trace: 0 10 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = hit 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000010000XX (32 bits)    |
+|                         Word Address: 000000000000000000000000010000   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000100|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 012 to 039 || Trace: 0 11 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = hit 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000010001XX (32 bits)    |
+|                         Word Address: 000000000000000000000000010001   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000100|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 013 to 039 || Trace: 0 10 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = hit 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000010000XX (32 bits)    |
+|                         Word Address: 000000000000000000000000010000   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000100|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 014 to 039 || Trace: 0 12 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000010010XX (32 bits)    |
+|                         Word Address: 000000000000000000000000010010   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000100|                              10|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 18 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000010010XX (32 bits)    |
+|                         Word Address: 000000000000000000000000010010   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000100|                              10|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 015 to 039 || Trace: 0 13 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000010011XX (32 bits)    |
+|                         Word Address: 000000000000000000000000010011   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000100|                              11|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 19 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000010011XX (32 bits)    |
+|                         Word Address: 000000000000000000000000010011   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000100|                              11|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 016 to 039 || Trace: 0 10 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = hit 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000010000XX (32 bits)    |
+|                         Word Address: 000000000000000000000000010000   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000000100|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 017 to 039 || Trace: 1 20 -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 32 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000100000XX (32 bits)    |
+|                         Word Address: 000000000000000000000000100000   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001000|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 018 to 039 || Trace: 1 21 -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 33 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000100001XX (32 bits)    |
+|                         Word Address: 000000000000000000000000100001   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001000|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 019 to 039 || Trace: 1 22 -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 34 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000100010XX (32 bits)    |
+|                         Word Address: 000000000000000000000000100010   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001000|                              10|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 020 to 039 || Trace: 0 20 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = hit 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000100000XX (32 bits)    |
+|                         Word Address: 000000000000000000000000100000   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001000|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 021 to 039 || Trace: 1 21 -----------------------
+
+Location: CACHE
+ Action = store operation  -  Access Type = hit 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000100001XX (32 bits)    |
+|                         Word Address: 000000000000000000000000100001   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001000|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 022 to 039 || Trace: 0 22 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = hit 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000100010XX (32 bits)    |
+|                         Word Address: 000000000000000000000000100010   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001000|                              10|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 023 to 039 || Trace: 1 23 -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 35 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000100011XX (32 bits)    |
+|                         Word Address: 000000000000000000000000100011   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001000|                              11|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 024 to 039 || Trace: 2 30 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000110000XX (32 bits)    |
+|                         Word Address: 000000000000000000000000110000   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001100|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 48 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000110000XX (32 bits)    |
+|                         Word Address: 000000000000000000000000110000   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001100|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 025 to 039 || Trace: 2 31 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000110001XX (32 bits)    |
+|                         Word Address: 000000000000000000000000110001   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001100|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 33 
+
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 49 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000110001XX (32 bits)    |
+|                         Word Address: 000000000000000000000000110001   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001100|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 026 to 039 || Trace: 2 32 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000110010XX (32 bits)    |
+|                         Word Address: 000000000000000000000000110010   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001100|                              10|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 50 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000110010XX (32 bits)    |
+|                         Word Address: 000000000000000000000000110010   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001100|                              10|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 027 to 039 || Trace: 2 33 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000110011XX (32 bits)    |
+|                         Word Address: 000000000000000000000000110011   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001100|                              11|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 35 
+
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 51 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000110011XX (32 bits)    |
+|                         Word Address: 000000000000000000000000110011   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001100|                              11|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 028 to 039 || Trace: 2 30 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = hit 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000110000XX (32 bits)    |
+|                         Word Address: 000000000000000000000000110000   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001100|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 029 to 039 || Trace: 2 31 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = hit 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000110001XX (32 bits)    |
+|                         Word Address: 000000000000000000000000110001   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001100|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 030 to 039 || Trace: 2 34 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000110100XX (32 bits)    |
+|                         Word Address: 000000000000000000000000110100   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001101|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 52 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000110100XX (32 bits)    |
+|                         Word Address: 000000000000000000000000110100   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001101|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 031 to 039 || Trace: 2 35 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000110101XX (32 bits)    |
+|                         Word Address: 000000000000000000000000110101   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001101|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 53 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000000110101XX (32 bits)    |
+|                         Word Address: 000000000000000000000000110101   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000001101|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 032 to 039 || Trace: 0 40 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000001000000XX (32 bits)    |
+|                         Word Address: 000000000000000000000001000000   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000010000|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 64 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000001000000XX (32 bits)    |
+|                         Word Address: 000000000000000000000001000000   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000010000|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 033 to 039 || Trace: 1 41 -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 65 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000001000001XX (32 bits)    |
+|                         Word Address: 000000000000000000000001000001   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000010000|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 034 to 039 || Trace: 2 42 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000001000010XX (32 bits)    |
+|                         Word Address: 000000000000000000000001000010   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000010000|                              10|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 66 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000001000010XX (32 bits)    |
+|                         Word Address: 000000000000000000000001000010   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000010000|                              10|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 035 to 039 || Trace: 0 43 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000001000011XX (32 bits)    |
+|                         Word Address: 000000000000000000000001000011   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000010000|                              11|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 67 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000001000011XX (32 bits)    |
+|                         Word Address: 000000000000000000000001000011   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000010000|                              11|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 036 to 039 || Trace: 1 44 -----------------------
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 32 
+
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 68 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000001000100XX (32 bits)    |
+|                         Word Address: 000000000000000000000001000100   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000010001|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 037 to 039 || Trace: 2 45 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000001000101XX (32 bits)    |
+|                         Word Address: 000000000000000000000001000101   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000010001|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 65 
+
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 69 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000001000101XX (32 bits)    |
+|                         Word Address: 000000000000000000000001000101   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000010001|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 038 to 039 || Trace: 0 40 -----------------------
+
+Location: CACHE
+ Action = load operation  -  Access Type = hit 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000001000000XX (32 bits)    |
+|                         Word Address: 000000000000000000000001000000   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000010000|                              00|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+----------------------- Step: 039 to 039 || Trace: 1 41 -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 65 
+
+
+Location: CACHE
+ Action = store operation  -  Access Type = miss 
+ Cache Type = Accessing Unified Cache  -  Cache Level = 1 
+|-------------------------------------------------------------------------------------|
+|                         Byte Address: 000000000000000000000001000001XX (32 bits)    |
+|                         Word Address: 000000000000000000000001000001   (30 bits)    |
+|-------------------------------------------------------------------------------------|
+|                              Block                              |   Word  |   Byte  |
+|               Tag              |              Set               |  OffSet |  OffSet |
+|-------------------------------------------------------------------------------------|
+|    0000000000000000000000010000|                              01|      ---|      XX |
+|-------------------------------------------------------------------------------------|
+|                         28 bits|                          2 bits|   0 bits|   2 bits|
+|-------------------------------------------------------------------------------------|
+
+------------------------------
+---       Statistics       ---
+------------------------------
+
+Unified Cache - Level 1
+  Read Access: 31
+  Read Cycles: 31
+  Read Time: 31
+  Write Access: 8
+  Write Cycles: 16
+  Write Time: 16
+  Total Access: 39
+  Total Hit: 10
+  Total Miss: 29
+  Hit/rate: 0.25641027
+  Total Time: 47
+
+Main Memory
+  Read Access: 29
+  Read Cycles: 29
+  Read Time: 29
+  Write Access: 4
+  Write Cycles: 8
+  Write Time: 8
+  Total Access: 33
+  Total Time: 37
+
+ Total Time: 84

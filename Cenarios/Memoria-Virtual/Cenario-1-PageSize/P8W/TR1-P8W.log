@@ -1,0 +1,6368 @@
+------------------------------------
+--- File created by Amnesia tool ---
+------------------------------------
+
+
+----------------------------------
+--- Architecture Configuration ---
+----------------------------------
+
+--- Main Memory ---
+
+Memory size: 1024 word(s) 
+Block size: 1 word(s)/block 
+Cycles per access read: 1 unity 
+Cycles per access write: 2 unity 
+Time cycle: 1 time unity 
+
+--- Virtual Memory ---
+Page size: 8 word(s) 
+Replacement algorithm: FIFO 
+
+---      Disk     ---
+Memory size: 128 word(s) 
+Cycles per access read: 10 unity 
+Cycles per access write: 20 unity 
+Time cycle: 100 time unity 
+
+---       TLB      ---
+Memory size: 4 Frame Page(s) 
+Cycles per access read: 1 unity 
+Cycles per access write: 2 unity 
+Time cycle: 1 time unity 
+Replacement algorithm: FIFO 
+
+-------------------------
+---       Trace       ---
+-------------------------
+
+2 0
+2 1
+2 2
+2 3
+2 4
+2 3
+2 5
+2 6
+2 7
+2 8
+2 0
+2 8
+2 1
+2 9
+2 2
+2 3
+2 a
+2 b
+2 a
+2 1
+2 c
+2 d
+2 3
+2 e
+2 f
+2 d
+2 f
+2 4
+2 5
+2 c
+
+------------------------------
+---      Execution Log     ---
+------------------------------
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 0 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 2 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 3 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 4 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 5 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 6 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 7 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 8 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 9 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 10 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 11 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 12 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 13 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 14 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 15 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 16 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 17 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 18 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 19 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 20 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 21 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 22 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 23 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 24 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 25 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 26 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 27 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 28 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 29 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 30 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 31 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 32 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 33 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 34 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 35 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 36 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 37 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 38 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 39 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 40 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 41 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 42 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 43 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 44 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 45 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 46 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 47 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 48 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 49 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 50 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 51 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 52 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 53 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 54 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 55 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 56 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 57 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 58 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 59 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 60 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 61 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 62 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 63 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 64 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 65 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 66 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 67 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 68 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 69 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 70 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 71 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 72 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 73 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 74 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 75 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 76 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 77 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 78 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 79 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 80 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 81 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 82 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 83 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 84 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 85 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 86 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 87 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 88 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 89 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 90 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 91 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 92 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 93 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 94 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 95 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 96 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 97 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 98 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 99 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 100 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 101 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 102 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 103 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 104 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 105 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 106 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 107 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 108 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 109 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 110 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 111 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 112 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 113 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 114 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 115 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 116 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 117 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 118 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 119 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 120 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 121 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 122 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 123 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 124 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 125 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 126 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 127 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 128 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 129 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 130 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 131 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 132 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 133 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 134 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 135 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 136 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 137 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 138 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 139 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 140 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 141 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 142 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 143 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 144 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 145 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 146 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 147 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 148 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 149 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 150 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 151 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 152 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 153 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 154 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 155 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 156 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 157 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 158 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 159 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 160 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 161 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 162 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 163 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 164 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 165 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 166 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 167 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 168 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 169 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 170 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 171 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 172 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 173 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 174 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 175 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 176 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 177 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 178 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 179 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 180 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 181 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 182 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 183 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 184 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 185 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 186 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 187 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 188 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 189 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 190 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 191 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 192 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 193 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 194 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 195 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 196 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 197 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 198 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 199 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 200 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 201 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 202 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 203 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 204 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 205 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 206 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 207 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 208 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 209 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 210 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 211 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 212 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 213 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 214 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 215 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 216 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 217 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 218 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 219 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 220 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 221 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 222 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 223 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 224 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 225 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 226 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 227 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 228 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 229 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 230 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 231 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 232 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 233 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 234 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 235 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 236 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 237 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 238 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 239 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 240 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 241 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 242 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 243 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 244 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 245 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 246 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 247 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 248 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 249 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 250 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 251 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 252 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 253 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 254 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 255 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 256 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 257 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 258 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 259 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 260 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 261 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 262 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 263 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 264 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 265 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 266 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 267 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 268 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 269 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 270 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 271 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 272 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 273 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 274 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 275 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 276 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 277 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 278 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 279 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 280 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 281 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 282 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 283 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 284 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 285 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 286 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 287 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 288 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 289 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 290 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 291 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 292 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 293 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 294 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 295 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 296 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 297 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 298 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 299 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 300 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 301 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 302 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 303 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 304 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 305 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 306 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 307 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 308 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 309 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 310 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 311 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 312 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 313 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 314 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 315 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 316 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 317 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 318 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 319 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 320 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 321 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 322 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 323 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 324 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 325 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 326 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 327 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 328 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 329 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 330 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 331 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 332 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 333 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 334 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 335 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 336 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 337 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 338 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 339 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 340 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 341 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 342 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 343 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 344 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 345 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 346 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 347 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 348 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 349 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 350 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 351 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 352 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 353 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 354 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 355 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 356 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 357 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 358 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 359 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 360 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 361 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 362 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 363 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 364 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 365 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 366 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 367 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 368 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 369 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 370 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 371 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 372 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 373 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 374 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 375 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 376 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 377 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 378 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 379 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 380 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 381 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 382 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 383 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 384 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 385 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 386 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 387 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 388 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 389 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 390 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 391 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 392 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 393 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 394 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 395 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 396 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 397 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 398 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 399 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 400 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 401 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 402 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 403 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 404 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 405 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 406 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 407 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 408 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 409 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 410 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 411 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 412 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 413 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 414 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 415 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 416 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 417 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 418 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 419 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 420 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 421 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 422 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 423 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 424 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 425 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 426 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 427 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 428 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 429 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 430 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 431 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 432 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 433 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 434 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 435 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 436 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 437 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 438 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 439 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 440 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 441 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 442 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 443 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 444 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 445 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 446 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 447 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 448 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 449 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 450 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 451 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 452 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 453 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 454 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 455 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 456 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 457 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 458 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 459 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 460 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 461 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 462 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 463 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 464 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 465 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 466 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 467 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 468 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 469 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 470 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 471 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 472 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 473 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 474 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 475 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 476 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 477 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 478 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 479 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 480 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 481 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 482 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 483 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 484 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 485 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 486 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 487 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 488 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 489 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 490 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 491 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 492 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 493 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 494 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 495 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 496 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 497 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 498 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 499 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 500 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 501 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 502 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 503 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 504 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 505 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 506 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 507 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 508 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 509 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 510 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 511 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 512 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 513 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 514 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 515 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 516 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 517 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 518 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 519 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 520 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 521 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 522 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 523 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 524 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 525 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 526 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 527 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 528 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 529 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 530 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 531 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 532 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 533 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 534 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 535 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 536 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 537 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 538 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 539 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 540 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 541 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 542 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 543 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 544 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 545 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 546 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 547 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 548 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 549 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 550 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 551 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 552 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 553 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 554 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 555 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 556 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 557 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 558 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 559 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 560 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 561 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 562 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 563 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 564 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 565 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 566 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 567 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 568 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 569 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 570 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 571 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 572 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 573 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 574 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 575 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 576 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 577 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 578 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 579 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 580 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 581 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 582 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 583 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 584 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 585 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 586 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 587 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 588 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 589 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 590 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 591 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 592 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 593 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 594 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 595 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 596 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 597 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 598 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 599 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 600 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 601 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 602 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 603 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 604 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 605 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 606 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 607 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 608 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 609 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 610 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 611 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 612 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 613 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 614 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 615 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 616 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 617 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 618 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 619 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 620 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 621 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 622 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 623 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 624 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 625 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 626 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 627 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 628 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 629 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 630 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 631 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 632 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 633 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 634 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 635 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 636 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 637 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 638 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 639 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 640 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 641 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 642 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 643 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 644 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 645 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 646 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 647 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 648 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 649 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 650 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 651 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 652 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 653 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 654 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 655 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 656 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 657 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 658 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 659 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 660 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 661 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 662 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 663 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 664 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 665 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 666 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 667 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 668 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 669 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 670 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 671 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 672 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 673 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 674 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 675 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 676 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 677 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 678 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 679 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 680 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 681 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 682 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 683 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 684 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 685 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 686 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 687 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 688 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 689 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 690 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 691 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 692 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 693 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 694 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 695 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 696 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 697 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 698 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 699 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 700 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 701 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 702 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 703 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 704 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 705 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 706 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 707 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 708 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 709 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 710 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 711 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 712 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 713 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 714 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 715 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 716 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 717 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 718 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 719 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 720 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 721 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 722 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 723 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 724 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 725 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 726 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 727 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 728 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 729 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 730 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 731 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 732 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 733 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 734 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 735 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 736 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 737 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 738 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 739 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 740 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 741 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 742 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 743 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 744 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 745 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 746 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 747 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 748 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 749 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 750 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 751 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 752 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 753 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 754 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 755 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 756 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 757 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 758 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 759 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 760 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 761 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 762 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 763 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 764 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 765 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 766 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 767 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 768 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 769 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 770 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 771 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 772 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 773 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 774 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 775 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 776 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 777 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 778 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 779 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 780 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 781 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 782 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 783 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 784 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 785 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 786 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 787 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 788 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 789 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 790 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 791 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 792 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 793 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 794 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 795 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 796 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 797 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 798 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 799 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 800 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 801 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 802 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 803 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 804 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 805 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 806 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 807 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 808 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 809 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 810 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 811 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 812 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 813 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 814 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 815 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 816 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 817 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 818 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 819 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 820 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 821 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 822 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 823 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 824 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 825 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 826 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 827 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 828 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 829 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 830 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 831 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 832 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 833 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 834 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 835 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 836 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 837 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 838 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 839 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 840 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 841 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 842 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 843 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 844 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 845 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 846 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 847 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 848 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 849 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 850 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 851 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 852 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 853 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 854 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 855 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 856 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 857 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 858 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 859 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 860 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 861 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 862 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 863 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 864 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 865 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 866 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 867 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 868 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 869 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 870 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 871 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 872 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 873 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 874 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 875 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 876 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 877 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 878 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 879 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 880 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 881 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 882 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 883 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 884 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 885 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 886 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 887 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 888 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 889 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 890 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 891 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 892 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 893 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 894 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 895 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 896 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 897 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 898 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 899 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 900 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 901 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 902 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 903 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 904 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 905 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 906 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 907 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 908 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 909 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 910 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 911 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 912 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 913 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 914 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 915 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 916 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 917 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 918 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 919 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 920 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 921 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 922 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 923 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 924 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 925 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 926 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 927 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 928 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 929 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 930 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 931 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 932 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 933 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 934 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 935 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 936 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 937 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 938 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 939 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 940 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 941 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 942 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 943 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 944 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 945 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 946 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 947 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 948 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 949 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 950 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 951 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 952 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 953 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 954 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 955 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 956 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 957 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 958 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 959 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 960 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 961 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 962 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 963 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 964 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 965 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 966 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 967 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 968 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 969 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 970 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 971 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 972 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 973 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 974 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 975 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 976 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 977 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 978 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 979 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 980 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 981 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 982 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 983 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 984 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 985 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 986 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 987 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 988 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 989 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 990 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 991 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 992 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 993 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 994 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 995 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 996 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 997 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 998 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 999 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1000 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1001 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1002 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1003 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1004 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1005 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1006 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1007 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1008 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1009 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1010 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1011 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1012 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1013 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1014 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1015 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1016 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1017 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1018 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1019 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1020 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1021 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1022 
+
+
+Location: MAINMEMORY
+Action = Stored data in Main Memory  
+Block = 1023 
+
+
+Location: DISK
+Action = Storing page in Disk 
+Address = 0x00000000 - Page 0
+
+
+Location: DISK
+Action = Storing page in Disk 
+Address = 0x00000008 - Page 1
+
+
+Location: DISK
+Action = Storing page in Disk 
+Address = 0x00000010 - Page 2
+
+
+Location: DISK
+Action = Storing page in Disk 
+Address = 0x00000018 - Page 3
+
+
+Location: DISK
+Action = Storing page in Disk 
+Address = 0x00000020 - Page 4
+
+
+Location: DISK
+Action = Storing page in Disk 
+Address = 0x00000028 - Page 5
+
+
+Location: DISK
+Action = Storing page in Disk 
+Address = 0x00000030 - Page 6
+
+
+Location: DISK
+Action = Storing page in Disk 
+Address = 0x00000038 - Page 7
+
+
+Location: DISK
+Action = Storing page in Disk 
+Address = 0x00000040 - Page 8
+
+
+Location: DISK
+Action = Storing page in Disk 
+Address = 0x00000048 - Page 9
+
+
+Location: DISK
+Action = Storing page in Disk 
+Address = 0x00000050 - Page 10
+
+
+Location: DISK
+Action = Storing page in Disk 
+Address = 0x00000058 - Page 11
+
+
+Location: DISK
+Action = Storing page in Disk 
+Address = 0x00000060 - Page 12
+
+
+Location: DISK
+Action = Storing page in Disk 
+Address = 0x00000068 - Page 13
+
+
+Location: DISK
+Action = Storing page in Disk 
+Address = 0x00000070 - Page 14
+
+
+----------------------- Step: 001 to 030 || Trace: 2 0 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = miss
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          000|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: PAGETABLE
+Action = loading data in the Page Table 
+Virtual Page = 0x00000000
+
+Location: TRANSLATION
+Action = Translation Address  - Using = Page Table
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       000|       XX |     |   000000000000000000000000001|       000|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+Location: TLB
+Action = Store Operation - Access Type = miss
+Cache Type = TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          000|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 8 
+
+
+----------------------- Step: 002 to 030 || Trace: 2 1 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          001|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       001|       XX |     |   000000000000000000000000001|       001|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 9 
+
+
+----------------------- Step: 003 to 030 || Trace: 2 2 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          010|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       010|       XX |     |   000000000000000000000000001|       010|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 10 
+
+
+----------------------- Step: 004 to 030 || Trace: 2 3 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          011|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       011|       XX |     |   000000000000000000000000001|       011|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 11 
+
+
+----------------------- Step: 005 to 030 || Trace: 2 4 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          100|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       100|       XX |     |   000000000000000000000000001|       100|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 12 
+
+
+----------------------- Step: 006 to 030 || Trace: 2 3 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          011|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       011|       XX |     |   000000000000000000000000001|       011|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 11 
+
+
+----------------------- Step: 007 to 030 || Trace: 2 5 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          101|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       101|       XX |     |   000000000000000000000000001|       101|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 13 
+
+
+----------------------- Step: 008 to 030 || Trace: 2 6 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          110|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       110|       XX |     |   000000000000000000000000001|       110|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 14 
+
+
+----------------------- Step: 009 to 030 || Trace: 2 7 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          111|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       111|       XX |     |   000000000000000000000000001|       111|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 15 
+
+
+----------------------- Step: 010 to 030 || Trace: 2 8 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = miss
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000001|                 ---|      ---|          000|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: PAGETABLE
+Action = loading data in the Page Table 
+Virtual Page = 0x00000001
+
+Location: TRANSLATION
+Action = Translation Address  - Using = Page Table
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000001|       000|       XX |     |   000000000000000000000000000|       000|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+Location: TLB
+Action = Store Operation - Access Type = miss
+Cache Type = TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000001|                 ---|      ---|          000|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 0 
+
+
+----------------------- Step: 011 to 030 || Trace: 2 0 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          000|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       000|       XX |     |   000000000000000000000000001|       000|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 8 
+
+
+----------------------- Step: 012 to 030 || Trace: 2 8 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000001|                 ---|      ---|          000|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000001|       000|       XX |     |   000000000000000000000000000|       000|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 0 
+
+
+----------------------- Step: 013 to 030 || Trace: 2 1 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          001|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       001|       XX |     |   000000000000000000000000001|       001|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 9 
+
+
+----------------------- Step: 014 to 030 || Trace: 2 9 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000001|                 ---|      ---|          001|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000001|       001|       XX |     |   000000000000000000000000000|       001|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 1 
+
+
+----------------------- Step: 015 to 030 || Trace: 2 2 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          010|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       010|       XX |     |   000000000000000000000000001|       010|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 10 
+
+
+----------------------- Step: 016 to 030 || Trace: 2 3 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          011|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       011|       XX |     |   000000000000000000000000001|       011|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 11 
+
+
+----------------------- Step: 017 to 030 || Trace: 2 a -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000001|                 ---|      ---|          010|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000001|       010|       XX |     |   000000000000000000000000000|       010|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 2 
+
+
+----------------------- Step: 018 to 030 || Trace: 2 b -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000001|                 ---|      ---|          011|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000001|       011|       XX |     |   000000000000000000000000000|       011|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 3 
+
+
+----------------------- Step: 019 to 030 || Trace: 2 a -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000001|                 ---|      ---|          010|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000001|       010|       XX |     |   000000000000000000000000000|       010|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 2 
+
+
+----------------------- Step: 020 to 030 || Trace: 2 1 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          001|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       001|       XX |     |   000000000000000000000000001|       001|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 9 
+
+
+----------------------- Step: 021 to 030 || Trace: 2 c -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000001|                 ---|      ---|          100|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000001|       100|       XX |     |   000000000000000000000000000|       100|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 4 
+
+
+----------------------- Step: 022 to 030 || Trace: 2 d -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000001|                 ---|      ---|          101|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000001|       101|       XX |     |   000000000000000000000000000|       101|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 5 
+
+
+----------------------- Step: 023 to 030 || Trace: 2 3 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          011|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       011|       XX |     |   000000000000000000000000001|       011|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 11 
+
+
+----------------------- Step: 024 to 030 || Trace: 2 e -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000001|                 ---|      ---|          110|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000001|       110|       XX |     |   000000000000000000000000000|       110|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 6 
+
+
+----------------------- Step: 025 to 030 || Trace: 2 f -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000001|                 ---|      ---|          111|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000001|       111|       XX |     |   000000000000000000000000000|       111|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 7 
+
+
+----------------------- Step: 026 to 030 || Trace: 2 d -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000001|                 ---|      ---|          101|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000001|       101|       XX |     |   000000000000000000000000000|       101|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 5 
+
+
+----------------------- Step: 027 to 030 || Trace: 2 f -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000001|                 ---|      ---|          111|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000001|       111|       XX |     |   000000000000000000000000000|       111|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 7 
+
+
+----------------------- Step: 028 to 030 || Trace: 2 4 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          100|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       100|       XX |     |   000000000000000000000000001|       100|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 12 
+
+
+----------------------- Step: 029 to 030 || Trace: 2 5 -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000000|                 ---|      ---|          101|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000000|       101|       XX |     |   000000000000000000000000001|       101|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 13 
+
+
+----------------------- Step: 030 to 030 || Trace: 2 c -----------------------
+
+-----------------------    Beginning of translation   -----------------------
+
+Location: TLB
+Action = load operation - Access Type = hit
+Cache Type = Accessing TLB
+|---------------------------------------------------------------------------------------|
+|                                |                    |   Word  |     Page    |   Byte  |
+|               Tag              |         Set        |  OffSet |    OffSet   |  OffSet |
+|---------------------------------------------------------------------------------------|
+|     000000000000000000000000001|                 ---|      ---|          100|      XX |
+|---------------------------------------------------------------------------------------|
+|                         27 bits|              0 bits|   0 bits|       3 bits|   2 bits|
+|---------------------------------------------------------------------------------------|
+
+Location: TRANSLATION
+Action = Translation Address  - Using = TLB
+|----------------------------------------------------|     |----------------------------------------------------|
+|                  Virtual Address                   |     |                    Real Address                    |
+|----------------------------------------------------|     |----------------------------------------------------|
+|        Virtual Page          |PageOffSet|ByteOffSet| --> |           Frame Page         |PageOffSet|ByteOffSet|
+|------------------------------|----------|----------|     |-----------------------------------------|----------|
+|   000000000000000000000000001|       100|       XX |     |   000000000000000000000000000|       100|       XX |
+|----------------------------------------------------|     |----------------------------------------------------|
+
+
+-----------------------       End of translation        -----------------------
+
+Location: MAINMEMORY
+Action = Loading data from Main Memory  
+Block = 4 
+
+
+------------------------------
+---       Statistics       ---
+------------------------------
+
+Main Memory
+  Read Access: 32
+  Read Cycles: 32
+  Read Time: 32
+  Write Access: 0
+  Write Cycles: 0
+  Write Time: 0
+  Total Access: 32
+  Total Time: 32
+
+Disk
+  Read Access: 0
+  Read Cycles: 0
+  Read Time: 0
+  Write Access: 0
+  Write Cycles: 0
+  Write Time: 0
+  Total Time: 0
+
+Page Table
+  Read Access: 2
+  Read Cycles: 2
+  Read Time: 2
+  Write Access: 0
+  Write Cycles: 0
+  Write Time: 0
+  Total Access: 2
+  Page Fault: 0
+  Total Time: 2
+
+TLB
+  Read Access: 30
+  Read Cycles: 30
+  Read Time: 30
+  Write Access: 2
+  Write Cycles: 4
+  Write Time: 4
+  Total Access: 30
+  Total Hit: 28
+  Total Miss: 2
+  Hit rate: 0.93333334
+  Total Time: 34
+
+ Total Time: 66
